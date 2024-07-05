@@ -6,7 +6,7 @@ import MyExperience from "@/components/MyExperience";
 import MySkills from "@/components/MySkills";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
-import Testomonials from "@/components/Testomonials";
+
 
 export default function Home() {
   return (
@@ -23,13 +23,17 @@ export default function Home() {
         <MyExperience />
       </section>
       <section id="about" className="mx-12 my-10 px-5 py-2">
-
-      <About />
+        <About />
       </section>
-      <Projects />
-      <Testomonials />
+      <section id="projects" className="bg-black text-white">
+        <Projects />
+      </section>
+
+      <section id="contact" className="mx-12 my-10 px-5 py-2">
       <Contact />
-      <Footer />
+
+      </section>
+      <Footer  />
     </main>
   );
 }

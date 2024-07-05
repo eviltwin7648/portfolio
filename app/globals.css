@@ -79,3 +79,7 @@
   -webkit-text-stroke-width: 3;
   -webkit-text-stroke-color: var(--Primary-Black, #000);
 }
+
+input,textarea{
+  @apply border-black  border-2 rounded-sm px-4 py-2 focus:outline-none;
+}
