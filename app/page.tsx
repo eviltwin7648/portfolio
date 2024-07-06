@@ -12,24 +12,24 @@ export default function Home() {
   return (
     <main>
       <Navbar />
-      <section id="hero" className="mx-12 my-2 px-5 py-2">
+      <section id="hero" className="md:mx-12 md:my-10 md:px-5 md:py-2 m-5">
         <Hero />
       </section>
-      <section id="skills" className="mx-12 my-10 px-5 py-2">
+      <section id="skills" className="md:mx-12 md:my-10 md:px-5 md:py-2 m-5">
         <MySkills />
       </section>
 
       <section className="bg-black text-white">
         <MyExperience />
       </section>
-      <section id="about" className="mx-12 my-10 px-5 py-2">
+      <section id="about" className="md:mx-12 md:my-10 md:px-5 md:py-2 m-5">
         <About />
       </section>
       <section id="projects" className="bg-black text-white">
         <Projects />
       </section>
 
-      <section id="contact" className="mx-12 my-10 px-5 py-2">
+      <section id="contact" className="md:mx-12 md:my-10 md:px-5 md:py-2 m-5">
       <Contact />
 
       </section>

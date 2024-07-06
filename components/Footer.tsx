@@ -5,9 +5,9 @@ const Footer = () => {
     <div className="bg-black text-white">
       <div className="flex justify-between p-3">
         <div>
-          <p>© 2021 Vishal Rai</p>
+          <p className="text-xs sm:text-sm">© 2024 Vishal Rai</p>
         </div>
-        
+        <p className="text-xs sm:text-sm" >Made with Nextjs & TailwindCSS</p>
       </div>
     </div>
   );

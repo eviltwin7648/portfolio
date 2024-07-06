@@ -36,8 +36,8 @@ export const skills = [
     url: "/logos/linux.svg",
   },
   {
-    title: "HTML",
-    url: "/logos/html.svg",
+    title: "Git",
+    url: "/logos/git.svg",
   },
 ];
 
@@ -48,7 +48,7 @@ export const experiences = [
     date: "July 2023 - September 2023",
     description:
       "As a Frontend developer, I’ve crafted responsive websites using HTML, CSS, and JavaScript. I’ve also played a crucial role in assisting startup clients as they establish their online presence. My responsibilities extended to managing and maintaining WordPress websites, where I improved performance by optimizing load times. Additionally, I acted as a liaison between clients and technical teams, ensuring effective communication and successful project outcomes.",
-    logo: "/tocketsphere.png",
+    logo: "/brandrouters.png",
   },
   {
     title: "FullStack Developer Intern",
@@ -80,8 +80,32 @@ export const projects = [
   {
     number: 3,
     title: "OpenAI - Summerizer",
-    description:"A web application that leverages OpenAI GPT-4 to summarize articles. Users can input article links, and the application generates concise summaries. Implemented using React.js, it ensures a responsive and intuitive user interface. Additionally, the application features navigation through the last five searched articles, enhancing user convenience and experience.",
+    description:
+      "A web application that leverages OpenAI GPT-4 to summarize articles. Users can input article links, and the application generates concise summaries. Implemented using React.js, it ensures a responsive and intuitive user interface. Additionally, the application features navigation through the last five searched articles, enhancing user convenience and experience.",
     url: "hhttps://openai-summerizer.vercel.app/",
     Image: "/dummy.png",
   },
 ];
+
+export const socials= [
+  {
+    title: "LinkedIn",
+    url: "https://www.linkedin.com/in/mrvishalrai/",
+    logo: "/logos/linkedin.svg",
+  },
+  {
+    title: "GitHub",
+    url: "https://github.com/eviltwin7648",
+    logo: "/logos/github.svg",
+  },
+  {
+    title: "Twitter",
+    url: "https://twitter.com/eviltwin7648",
+    logo: "/logos/twitter.svg",
+  },
+  {
+    title: "Instagram",
+    url: "https://www.instagram.com/notvishalrai/",
+    logo: "/logos/instagram.svg",
+  }
+]

@@ -12,10 +12,12 @@ const MySkills = () => {
         {skills.map((skill) => (
           <div
             key={skill.title}
-            className=" flex flex-col h-[186px] w-[186px] items-center justify-around rounded-md  border-4  border-black "
+            className="flex flex-col h-24 w-24 sm:h-[186px] sm:w-[186px]  items-center justify-around rounded-md  border-4  border-black hover:bg-black "
           >
-            <Image src={skill.url} alt={skill.title} height={70} width={70} />
-            <p>{skill.title}</p>
+            <div className="flex flex-col  w-1/2 h-1/2 sm:w-full sm:h-full justify-around items-center hover:invert">
+              <Image src={skill.url} alt={skill.title} height={70} width={70} />
+              <p className="sm:text-lg text-sm">{skill.title}</p>
+            </div>
           </div>
         ))}
       </div>

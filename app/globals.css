@@ -75,11 +75,15 @@
   }
 }
 
+html, body{
+  scroll-behavior: smooth;
+}
+
 .hollow-text {
   -webkit-text-stroke-width: 3;
   -webkit-text-stroke-color: var(--Primary-Black, #000);
 }
 
-input,textarea{
+input,textarea,button{
   @apply border-black  border-2 rounded-sm px-4 py-2 focus:outline-none;
 }
