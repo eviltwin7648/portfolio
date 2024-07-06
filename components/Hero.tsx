@@ -12,10 +12,10 @@ const Hero = () => {
           <span className="font-medium">India</span>
         </h1>
         <p className="my-10 text-lg lg:text-xl text-gray-500">
-          "Hey there! I&apos;m a React.js wizard, Next.js enthusiast, and MongoDB
+        &quot;Hey there! I&apos;m a React.js wizard, Next.js enthusiast, and MongoDB
           aficionado. When I&apos;m not slinging code, you&apos;ll find me sipping coffee
           and pondering how to build the next big thing. Let&apos;s team up and
-          create some digital magic together!” 🚀👩‍💻
+          create some digital magic together!&quot; 🚀👩‍💻
         </p>
         <Socials />
         <div></div>

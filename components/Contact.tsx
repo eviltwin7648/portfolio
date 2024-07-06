@@ -8,6 +8,7 @@ const Contact = () => {
     // handle form submission
     "use server"
      await submitForm({
+      // @ts-ignore
       name: formdata.get('name') as string,
       email: formdata.get("email") as string,
       website: formdata.get("website") as string,
