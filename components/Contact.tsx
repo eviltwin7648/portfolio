@@ -49,7 +49,7 @@ const Contact = () => {
       </div>
       <div className="lg:w-1/2 flex flex-col justify-center">
         <h3 className="sm:text-6xl text-2xl font-bold">
-          Let's talk for something special
+          Let&apos;s talk for something special
         </h3>
         <p className="sm:text-base text-sm my-5 text-gray-500">
           I seek to push the limits of creativity to create high-engaging,
