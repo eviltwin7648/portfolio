@@ -14,7 +14,7 @@ const MobileNav = () => {
   return (
     <div className="sm:hidden">
       <Sheet>
-        <SheetTrigger className="align-middle">
+        <SheetTrigger className="align-middle" asChild>
           <Image
             src="/logos/menu.svg"
             alt="menu"
@@ -36,7 +36,7 @@ const MobileNav = () => {
                 <a href="#projects">Projects</a>
               </li>
               <li>
-                <a href="#contact">Contact</a>
+                <a href="#contact" >Contact</a>
               </li>
             </ul>
             <a

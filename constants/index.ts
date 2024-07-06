@@ -55,7 +55,7 @@ export const experiences = [
     company: "TicketSphere",
     date: "July 2024 - September 2024",
     description:
-      "As a Frontend developer, I’ve crafted responsive websites using HTML, CSS, and JavaScript. I’ve also played a crucial role in assisting startup clients as they establish their online presence. My responsibilities extended to managing and maintaining WordPress websites, where I improved performance by optimizing load times. Additionally, I acted as a liaison between clients and technical teams, ensuring effective communication and successful project outcomes.",
+      "As a FullStack Developer intern at TicketSphere, an online events hosting platform, I contributed to developing various application features. Over the 3-month internship, I utilized a tech stack comprising MongoDB, Next.js, GitHub, Tailwind CSS, and TypeScript. I played a crucial role in feature development, database management, and frontend implementation, ensuring a seamless user experience. My responsibilities also extended to collaborating with the development team using GitHub, where I managed code versions and optimized workflows. Additionally, I integrated TypeScript into the project, enhancing application robustness and minimizing runtime errors",
     logo: "/tocketsphere.png",
   },
 ];
@@ -67,7 +67,7 @@ export const projects = [
     description:
       "A dynamic web application called Threads, incorporating user authentication through Clerk. The platform features thread creation, comments, search functionality, and community management, along with customized user profiles and notifications for thread interactions. Built with a robust tech stack including Next.js, React.js, MongoDB, and TypeScript, Threads offers a seamless and interactive user experience.",
     url: "https://threads-chi-tawny.vercel.app/",
-    Image: "/dummy.png",
+    Image: "/threads.png",
   },
   {
     number: 2,
@@ -75,7 +75,7 @@ export const projects = [
     description:
       "Developed a dynamic car rental platform that efficiently integrates multiple API sources. Car details are fetched from one API, while images showcasing various angles are retrieved from another. The platform features robust search and filtering capabilities, allowing users to find specific car models based on criteria such as make, model, and features. Built with Next.js and utilizing server-side rendering, the platform ensures optimal performance for an enhanced user experience.",
     url: "https://car-showcase-app-gray.vercel.app/",
-    Image: "/dummy.png",
+    Image: "/carshub.png",
   },
   {
     number: 3,
@@ -83,7 +83,7 @@ export const projects = [
     description:
       "A web application that leverages OpenAI GPT-4 to summarize articles. Users can input article links, and the application generates concise summaries. Implemented using React.js, it ensures a responsive and intuitive user interface. Additionally, the application features navigation through the last five searched articles, enhancing user convenience and experience.",
     url: "hhttps://openai-summerizer.vercel.app/",
-    Image: "/dummy.png",
+    Image: "/openai.png",
   },
 ];
 

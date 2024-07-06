@@ -9,9 +9,9 @@ const Projects = () => {
         My <span className="font-bold">Projects</span>
       </h1>
       {projects.map((project) => (
-        <div key={project.title} className="flex flex-col lg:flex-row  sm:px-10 ">
+        <div key={project.title} className="flex flex-col lg:flex-row  sm:px-10 my-5 ">
           <div className={` flex lg:w-1/2  sm:max-lg:justify-center ${project.number % 2 ?'justify-start':'justify-end'}   `}>
-            <Image
+            <Image className="rounded-lg"
               src={project.Image}
               alt="project_image"
               width={500}
