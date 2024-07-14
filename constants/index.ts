@@ -82,7 +82,7 @@ export const projects = [
     title: "OpenAI - Summerizer",
     description:
       "A web application that leverages OpenAI GPT-4 to summarize articles. Users can input article links, and the application generates concise summaries. Implemented using React.js, it ensures a responsive and intuitive user interface. Additionally, the application features navigation through the last five searched articles, enhancing user convenience and experience.",
-    url: "hhttps://openai-summerizer.vercel.app/",
+    url: "https://openai-summerizer.vercel.app/",
     Image: "/openai.png",
   },
 ];
